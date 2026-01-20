@@ -1,4 +1,5 @@
 # Awesome Rare Disease Resources
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://oboacademy.github.io/obook/tutorial/pull-requests/)
 ![License](https://img.shields.io/github/license/matentzn/awesome-rare-disease-resources.svg?color=blue)
@@ -37,6 +38,7 @@ Core knowledge bases providing structured data on rare diseases, their genetic c
 - [MalaCards](https://www.malacards.org/) - Integrates rare disease information from 74 sources into unified disease cards, useful for exploring disease relationships and annotations.
 - [DECIPHER](https://www.deciphergenomics.org/) - Database of chromosomal imbalance and phenotype in humans. Contains over 60,000 patient records linking genomic variants to rare disease phenotypes, critical for CNV interpretation.
 - [Open Targets Platform](https://platform.opentargets.org/) - Integrates genetics, genomics, and drug data to identify therapeutic targets. Includes rare disease associations from OMIM, Orphanet, and ClinVar. [Data downloads](https://platform.opentargets.org/downloads).
+- [FDA Orphan Drug Designations](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/) - Searchable database of 5,000+ orphan drug designations since 1983, tracking which rare diseases have drugs in development or approved.
 
 ## Ontologies & Terminologies
 
@@ -57,6 +59,7 @@ Standards specifically designed for or widely adopted by the rare disease commun
 - [VRS](https://vrs.ga4gh.org/) - GA4GH Variation Representation Specification provides computable, unambiguous variant identifiers. Critical for consistent variant reporting across rare disease databases.
 - [GA4GH Beacon](https://beacon-project.io/) - Protocol for querying genomic variant presence across federated datasets. Enables privacy-preserving rare variant discovery across institutions.
 - [HGVS Nomenclature](https://hgvs-nomenclature.org/) - The standard for describing sequence variants in publications, databases, and clinical reports. Required for ClinVar submissions.
+- [RD-CDM](https://rd-cdm.readthedocs.io/) - Rare Disease Common Data Model extending ERDRI-CDS for international registry harmonization, compatible with Phenopackets and FHIR.
 
 ## Variant & Genomic Data
 
@@ -76,6 +79,7 @@ Programmatic access points for rare disease data integration.
 - [Orphadata](https://www.orphadata.com/) - Bulk downloads of Orphanet data including disease classifications, gene associations, epidemiology, and phenotype annotations in XML and RDF formats.
 - [Monarch API](https://api-v3.monarchinitiative.org/v3/docs) - REST API for querying integrated rare disease data: disease-gene associations, phenotype profiles, and cross-species mappings.
 - [OLS4](https://www.ebi.ac.uk/ols4/) - Ontology Lookup Service providing API access to HPO, Mondo, ORDO and other rare disease ontologies with search and term resolution.
+- [MedGen](https://www.ncbi.nlm.nih.gov/medgen/) - NCBI's portal aggregating disease concepts from OMIM, Orphanet, HPO, Mondo, and ClinVar into unified identifiers. [FTP downloads](https://ftp.ncbi.nlm.nih.gov/pub/medgen/).
 
 ## Clinical & Diagnostic Resources
 
@@ -101,6 +105,7 @@ Open-source tools developed for or widely used in rare disease analysis.
 - [OAK (Ontology Access Kit)](https://github.com/INCATools/ontology-access-kit) - Python library for working with HPO, Mondo, and other rare disease ontologies programmatically.
 - [Seqr](https://github.com/broadinstitute/seqr) - Open-source web platform for rare disease family-based variant analysis, used by the Broad Institute's rare disease genomics programs.
 - [PhenoTips](https://phenotips.com/) - Patient phenotyping software using HPO for structured data collection in rare disease clinics. [Open source](https://github.com/phenotips/phenotips).
+- [MARRVEL](https://marrvel.org/) - IRDiRC-recognized tool integrating human variant databases with 7 model organism resources to prioritize rare variants for functional study.
 
 ## Research Platforms & Initiatives
 
@@ -115,10 +120,15 @@ Major programs and consortia advancing rare disease research through data sharin
 - [RDCA-DAP](https://ncats.nih.gov/research/research-activities/rdca-dap) - Rare Diseases Clinical Research Network Data Analysis Platform providing centralized data management for RDCRN consortia.
 - [RDMM](https://rare-diseases-catalyst-network.ca/) - Canadian Rare Diseases Models and Mechanisms network connecting clinicians with basic scientists to validate rare disease gene discoveries.
 - [GA4GH](https://www.ga4gh.org/) - Global Alliance for Genomics and Health developing data sharing standards (Phenopackets, Beacon, VRS) widely adopted by rare disease community.
+- [GA4GH Rare Disease Community](https://www.ga4gh.org/community/rare-disease/) - Dedicated community bridging clinical and technical RD stakeholders, coordinating global data sharing and standards implementation.
+- [OHDSI Rare Disease Working Group](https://www.ohdsi.org/ohdsi2025-workgroups/) - Develops methods for rare disease cohort identification and research using OMOP CDM across global real-world data networks.
+- [EU RD Platform (ERDRI)](https://eu-rd-platform.jrc.ec.europa.eu/) - European Commission platform providing directory of registries, common data elements, and cross-registry search tools for RD patient data harmonization.
 - [ELIXIR Rare Disease Community](https://elixir-europe.org/communities/rare-diseases) - European bioinformatics infrastructure community focused on rare disease data resources and standards.
 - [ERDERA](https://erdera.org/) - European Rare Diseases Research Alliance (launched 2024) unifying research resources, clinical networks, and expertise across Europe. Successor to EJP RD.
 - [European Reference Networks (ERNs)](https://health.ec.europa.eu/rare-diseases-and-european-reference-networks_en) - 24 cross-border networks of specialist centers for rare disease diagnosis and care, mandated by EU Cross-Border Healthcare Directive.
 - [RDCRN](https://www.rarediseasesnetwork.org/) - NIH Rare Diseases Clinical Research Network with 21 consortia studying 200+ rare diseases, providing infrastructure for natural history studies and clinical trials.
+- [IRUD](https://www.amed.go.jp/en/program/IRUD/) - Japan's Initiative on Rare and Undiagnosed Diseases with 418 participating hospitals, achieving diagnosis in 44% of 6,300+ registered pedigrees.
+- [Every Cure](https://everycure.org/) - ARPA-H funded nonprofit using AI to identify drug repurposing opportunities across 4,000 approved drugs for rare disease treatment.
 
 ## Patient Registries
 
@@ -143,6 +153,7 @@ Organizations representing patients, driving research priorities, and providing 
 - [EveryLife Foundation](https://everylifefoundation.org/) - Policy advocacy organization focused on rare disease legislation and regulatory issues.
 - [SWAN UK](https://www.undiagnosed.org.uk/) - Support network for families of children with Syndromes Without A Name (undiagnosed genetic conditions).
 - [CORD](https://www.raredisorders.ca/) - Canadian Organization for Rare Disorders providing patient support and advocating for rare disease policy in Canada.
+- [Rare Diseases South Africa](https://www.rarediseases.co.za/) - South African rare disease information and support hub.
 
 ## Contributing
 
