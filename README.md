@@ -39,6 +39,7 @@ Core knowledge bases providing structured data on rare diseases, their genetic c
 - [DECIPHER](https://www.deciphergenomics.org/) - Database of chromosomal imbalance and phenotype in humans. Contains over 60,000 patient records linking genomic variants to rare disease phenotypes, critical for CNV interpretation.
 - [Open Targets Platform](https://platform.opentargets.org/) - Integrates genetics, genomics, and drug data to identify therapeutic targets. Includes rare disease associations from OMIM, Orphanet, and ClinVar. [Data downloads](https://platform.opentargets.org/downloads).
 - [FDA Orphan Drug Designations](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/) - Searchable database of 5,000+ orphan drug designations since 1983, tracking which rare diseases have drugs in development or approved.
+- [EMA Orphan Designation](https://www.ema.europa.eu/en/medicines/ema_group_types/ema_orphan) - European Medicines Agency database of orphan medicinal product designations, providing information on drugs designated for rare diseases in the EU.
 
 ## Ontologies & Terminologies
 
@@ -47,18 +48,13 @@ Standardized vocabularies essential for rare disease data integration. These ena
 - [Mondo Disease Ontology](https://mondo.monarchinitiative.org/) - The unifying disease ontology that harmonizes OMIM, Orphanet, NCIT, and other disease sources. Provides stable identifiers and cross-references essential for integrating rare disease data across resources. [GitHub](https://github.com/monarch-initiative/mondo).
 - [Human Phenotype Ontology (HPO)](https://hpo.jax.org/) - The standard vocabulary for clinical phenotypes with over 18,000 terms. Used by ClinVar, OMIM, Orphanet, and diagnostic tools. Enables phenotype-driven rare disease diagnosis. [GitHub](https://github.com/obophenotype/human-phenotype-ontology).
 - [Orphanet Rare Disease Ontology (ORDO)](https://www.orphadata.com/ordo/) - The ontological representation of the Orphanet nomenclature. ORPHAcodes are [mandated for rare disease coding in EU health systems](https://ojrd.biomedcentral.com/articles/10.1186/s13023-015-0251-8) and enable cross-border data sharing.
-- [SNOMED CT](https://www.snomed.org/) - Clinical terminology used in EHRs. Has [official alignment with Orphanet](https://confluence.ihtsdotools.org/display/RMT/SNOMED+CT+to+Orphanet+Map+package+Production+Release+Notes+-+July+2024) covering 93.8% of rare diseases with exact equivalence, enabling rare disease capture in routine clinical care.
-- [ICD-11](https://icd.who.int/) - WHO classification now includes [5,400+ rare diseases](https://ojrd.biomedcentral.com/articles/10.1186/s13023-015-0251-8) in its foundation layer (10x more than ICD-10), developed with Orphanet input. Currently 71.7% of rare diseases mapped to ICD-11 codes.
 
 ## Data Standards & Exchange Formats
 
 Standards specifically designed for or widely adopted by the rare disease community for data exchange.
 
 - [Phenopackets](https://phenopackets.org/) - GA4GH standard for sharing patient phenotype and disease information. Adopted by rare disease diagnostic pipelines and the [Matchmaker Exchange](https://www.matchmakerexchange.org/). [Schema](https://github.com/phenopackets/phenopacket-schema).
-- [FHIR Genomics](https://www.hl7.org/fhir/genomics.html) - HL7 FHIR resources for genomic data in clinical settings. Enables integration of rare disease genomic findings into EHRs.
-- [VRS](https://vrs.ga4gh.org/) - GA4GH Variation Representation Specification provides computable, unambiguous variant identifiers. Critical for consistent variant reporting across rare disease databases.
 - [GA4GH Beacon](https://beacon-project.io/) - Protocol for querying genomic variant presence across federated datasets. Enables privacy-preserving rare variant discovery across institutions.
-- [HGVS Nomenclature](https://hgvs-nomenclature.org/) - The standard for describing sequence variants in publications, databases, and clinical reports. Required for ClinVar submissions.
 - [RD-CDM](https://rd-cdm.readthedocs.io/) - Rare Disease Common Data Model extending ERDRI-CDS for international registry harmonization, compatible with Phenopackets and FHIR.
 
 ## Variant & Genomic Data
@@ -70,7 +66,6 @@ Resources providing variant-level data essential for rare disease genetic diagno
 - [ClinGen](https://clinicalgenome.org/) - NIH-funded resource providing expert-curated gene-disease validity, variant pathogenicity, and dosage sensitivity assessments. The authority for clinical actionability of genetic findings. [Data downloads](https://clinicalgenome.org/docs/downloads/).
 - [LOVD](https://www.lovd.nl/) - Locus-specific variant databases maintained by gene experts. Many rare disease genes have dedicated LOVD instances with curated variant interpretations.
 - [HGMD](http://www.hgmd.cf.ac.uk/) - Human Gene Mutation Database cataloging published disease-causing mutations. Commercial with limited public access; widely used in clinical genetics labs.
-- [CIViC](https://civicdb.org/) - Clinical Interpretation of Variants in Cancer with community curation. Relevant for rare cancer syndromes and hereditary cancer genes.
 
 ## APIs & Data Downloads
 
@@ -78,7 +73,6 @@ Programmatic access points for rare disease data integration.
 
 - [Orphadata](https://www.orphadata.com/) - Bulk downloads of Orphanet data including disease classifications, gene associations, epidemiology, and phenotype annotations in XML and RDF formats.
 - [Monarch API](https://api-v3.monarchinitiative.org/v3/docs) - REST API for querying integrated rare disease data: disease-gene associations, phenotype profiles, and cross-species mappings.
-- [OLS4](https://www.ebi.ac.uk/ols4/) - Ontology Lookup Service providing API access to HPO, Mondo, ORDO and other rare disease ontologies with search and term resolution.
 - [MedGen](https://www.ncbi.nlm.nih.gov/medgen/) - NCBI's portal aggregating disease concepts from OMIM, Orphanet, HPO, Mondo, and ClinVar into unified identifiers. [FTP downloads](https://ftp.ncbi.nlm.nih.gov/pub/medgen/).
 
 ## Clinical & Diagnostic Resources
@@ -102,7 +96,6 @@ Open-source tools developed for or widely used in rare disease analysis.
 
 - [Exomiser](https://github.com/exomiser/Exomiser) - The standard phenotype-aware variant prioritization tool for rare disease exome/genome analysis.
 - [LIRICAL](https://github.com/TheJacksonLaboratory/LIRICAL) - Probabilistic phenotype-driven diagnostic tool.
-- [OAK (Ontology Access Kit)](https://github.com/INCATools/ontology-access-kit) - Python library for working with HPO, Mondo, and other rare disease ontologies programmatically.
 - [Seqr](https://github.com/broadinstitute/seqr) - Open-source web platform for rare disease family-based variant analysis, used by the Broad Institute's rare disease genomics programs.
 - [PhenoTips](https://phenotips.com/) - Patient phenotyping software using HPO for structured data collection in rare disease clinics. [Open source](https://github.com/phenotips/phenotips).
 - [MARRVEL](https://marrvel.org/) - IRDiRC-recognized tool integrating human variant databases with 7 model organism resources to prioritize rare variants for functional study.
@@ -119,7 +112,6 @@ Major programs and consortia advancing rare disease research through data sharin
 - [Rare-X](https://rare-x.org/) - Patient-powered platform enabling rare disease patients to collect and share their health data for research.
 - [RDCA-DAP](https://ncats.nih.gov/research/research-activities/rdca-dap) - Rare Diseases Clinical Research Network Data Analysis Platform providing centralized data management for RDCRN consortia.
 - [RDMM](https://rare-diseases-catalyst-network.ca/) - Canadian Rare Diseases Models and Mechanisms network connecting clinicians with basic scientists to validate rare disease gene discoveries.
-- [GA4GH](https://www.ga4gh.org/) - Global Alliance for Genomics and Health developing data sharing standards (Phenopackets, Beacon, VRS) widely adopted by rare disease community.
 - [GA4GH Rare Disease Community](https://www.ga4gh.org/community/rare-disease/) - Dedicated community bridging clinical and technical RD stakeholders, coordinating global data sharing and standards implementation.
 - [OHDSI Rare Disease Working Group](https://www.ohdsi.org/ohdsi2025-workgroups/) - Develops methods for rare disease cohort identification and research using OMOP CDM across global real-world data networks.
 - [EU RD Platform (ERDRI)](https://eu-rd-platform.jrc.ec.europa.eu/) - European Commission platform providing directory of registries, common data elements, and cross-registry search tools for RD patient data harmonization.
