@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Thank you for your interest in contributing to Awesome Rare Disease Resources!
+Thank you for your interest in contributing to Awesome Resources for Rare Disease!
 
 ## Adding a Resource
 
