@@ -1,4 +1,4 @@
-# AGENTS.md for awesome-rare-disease-resources
+# AGENTS.md for awesome-resources-for-rare-disease
 
 Curated list of rare disease data resources
 

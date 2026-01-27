@@ -1,8 +1,8 @@
-# Awesome Rare Disease Resources
+# Awesome Resources for Rare Disease
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://oboacademy.github.io/obook/tutorial/pull-requests/)
-![License](https://img.shields.io/github/license/matentzn/awesome-rare-disease-resources.svg?color=blue)
+![License](https://img.shields.io/github/license/matentzn/awesome-resources-for-rare-disease.svg?color=blue)
 
 > A curated list of data resources, ontologies, and tools for rare disease research and data integration.
 
