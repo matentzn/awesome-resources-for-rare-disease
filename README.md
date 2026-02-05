@@ -118,6 +118,7 @@ Major programs and consortia advancing rare disease research through data sharin
 - [RDCRN](https://www.rarediseasesnetwork.org/) - NIH Rare Diseases Clinical Research Network with 21 consortia studying 200+ rare diseases, providing infrastructure for natural history studies and clinical trials.
 - [IRUD](https://www.amed.go.jp/en/program/IRUD/) - Japan's Initiative on Rare and Undiagnosed Diseases with 418 participating hospitals, achieving diagnosis in 44% of 6,300+ registered pedigrees.
 - [Every Cure](https://everycure.org/) - ARPA-H funded nonprofit using AI to identify drug repurposing opportunities across 4,000 approved drugs for rare disease treatment.
+- [SimPaThIC](https://simpathic.eu/) - EU Horizon-funded consortium of 22 partners repurposing existing drugs for rare neurological, neurometabolic, and neuromuscular disorders using patient-derived cell models.
 
 ## Patient Registries
 
