@@ -97,6 +97,7 @@ Open-source tools developed for or widely used in rare disease analysis.
 - [LIRICAL](https://github.com/TheJacksonLaboratory/LIRICAL) - Probabilistic phenotype-driven diagnostic tool.
 - [Seqr](https://github.com/broadinstitute/seqr) - Open-source web platform for rare disease family-based variant analysis, used by the Broad Institute's rare disease genomics programs.
 - [MARRVEL](https://marrvel.org/) - IRDiRC-recognized tool integrating human variant databases with 7 model organism resources to prioritize rare variants for functional study.
+- [Rare Disease Celltyping Portal](https://neurogenomics-ukdri.dsi.ic.ac.uk/) - Interactive portal for exploring cell-type associations across rare diseases, linking phenotypes to cell types using single-cell transcriptomic data.
 
 ## Research Platforms & Initiatives
 
