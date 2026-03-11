@@ -121,6 +121,7 @@ Major programs and consortia advancing rare disease research through data sharin
 - [SimPaThIC](https://simpathic.eu/) - EU Horizon-funded consortium of 22 partners repurposing existing drugs for rare neurological, neurometabolic, and neuromuscular disorders using patient-derived cell models.
 - [RDAS](https://rdas.ncats.nih.gov/) - NCATS Rare Disease Alert System integrating PubMed articles, clinical trials, and NIH grant data into a searchable knowledge graph. Users can browse and subscribe to alerts for rare diseases of interest.
 - [RARe-SOURCE](https://raresource.nih.gov/) - NCATS bioinformatics platform providing annotated data on rare diseases, associated genes, variants, and proteins, with AI-enhanced literature search and protein structure visualization to support drug discovery.
+- [C-Path](https://c-path.org/) - Critical Path Institute, a nonprofit that brings together regulators, industry, and academia to accelerate drug development for diseases with unmet needs, including dedicated rare disease programmes such as Duchenne muscular dystrophy and polycystic kidney disease.
 
 ## Patient Registries
 
