@@ -121,6 +121,7 @@ Major programs and consortia advancing rare disease research through data sharin
 - [SimPaThIC](https://simpathic.eu/) - EU Horizon-funded consortium of 22 partners repurposing existing drugs for rare neurological, neurometabolic, and neuromuscular disorders using patient-derived cell models.
 - [RDAS](https://rdas.ncats.nih.gov/) - NCATS Rare Disease Alert System integrating PubMed articles, clinical trials, and NIH grant data into a searchable knowledge graph. Users can browse and subscribe to alerts for rare diseases of interest.
 - [RARe-SOURCE](https://raresource.nih.gov/) - NCATS bioinformatics platform providing annotated data on rare diseases, associated genes, variants, and proteins, with AI-enhanced literature search and protein structure visualization to support drug discovery.
+- [NF Data Portal](https://nf.synapse.org/) - Repository focused on neurofibromatosis (NF) diseases hosted by Sage Bionetworks with community support through the NF Open Science Initiative.
 
 ## Patient Registries
 
@@ -132,6 +133,7 @@ Registries collecting patient-level data essential for understanding rare diseas
 - [CoRDS](https://sanfordresearch.org/cords/) - Coordination of Rare Diseases at Sanford providing registry infrastructure for rare disease patient organizations.
 - [IAMRARE Registry Program](https://ncats.nih.gov/iamrare) - NCATS program providing registry infrastructure and support for rare disease advocacy organizations.
 - [RaDaR](https://registries.ncats.nih.gov/) - NCATS Rare Diseases Registry Program providing guidance, best practices, and resources for developing rare disease registries.
+- [NF Registry](https://www.ctf.org/nf-registry/) - Patient-driven registry for neurofibromatosis (NF) to advance research and improve care funded by the Children's Tumor Foundation.
 
 ## Patient Advocacy & Support Organizations
 
@@ -146,6 +148,9 @@ Organizations representing patients, driving research priorities, and providing 
 - [SWAN UK](https://geneticalliance.org.uk/support-and-information/swan-uk-syndromes-without-a-name/) - Support network for families of children with Syndromes Without A Name (undiagnosed genetic conditions).
 - [CORD](https://www.raredisorders.ca/) - Canadian Organization for Rare Disorders providing patient support and advocating for rare disease policy in Canada.
 - [Rare Diseases South Africa](https://www.rarediseases.co.za/) - South African rare disease information and support hub.
+- [CTF](https://www.ctf.org/) - The Children's Tumor Foundation connects patients, doctors, scientists, and pharma to drive treatments for neurofibromatosis or schwannomatosis.
+- [GFF](https://gilbertfamilyfoundation.org/curing-neurofibromatosis/) - The Gilbert Family Foundation supports bold research initiatives that are accelerating a cure to neurofibromatosis (NF).
+- [NTAP](https://www.n-tap.org/) - The Neurofibromatosis Therapeutic Acceleration Program leads and funds breakthrough research to accelerate treatment options for NF1-related plexiform and cutaneous neurofibromas.
 
 ## Contributing
 
