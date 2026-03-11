@@ -97,6 +97,7 @@ Open-source tools developed for or widely used in rare disease analysis.
 - [LIRICAL](https://github.com/TheJacksonLaboratory/LIRICAL) - Probabilistic phenotype-driven diagnostic tool.
 - [Seqr](https://github.com/broadinstitute/seqr) - Open-source web platform for rare disease family-based variant analysis, used by the Broad Institute's rare disease genomics programs.
 - [MARRVEL](https://marrvel.org/) - IRDiRC-recognized tool integrating human variant databases with 7 model organism resources to prioritize rare variants for functional study.
+- [monarchR](https://monarch-initiative.github.io/monarchr/articles/monarchr) - R package providing programmatic access to Monarch Initiative biomedical knowledge graphs for querying genes, diseases, and phenotype relationships. [GitHub](https://github.com/monarch-initiative/monarchr).
 
 ## Research Platforms & Initiatives
 
