@@ -40,6 +40,7 @@ Core knowledge bases providing structured data on rare diseases, their genetic c
 - [Open Targets Platform](https://platform.opentargets.org/) - Integrates genetics, genomics, and drug data to identify therapeutic targets. Includes rare disease associations from OMIM, Orphanet, and ClinVar. [Data downloads](https://platform.opentargets.org/downloads).
 - [FDA Orphan Drug Designations](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/) - Searchable database of 5,000+ orphan drug designations since 1983, tracking which rare diseases have drugs in development or approved.
 - [EMA Orphan Designation](https://www.ema.europa.eu/en/human-regulatory-overview/orphan-designation-overview) - European Medicines Agency database of orphan medicinal product designations, providing information on drugs designated for rare diseases in the EU.
+- [Autoimmune Registry](https://www.autoimmuneregistry.org/home) - Registry for data on incidence, demographics, and survival rates for all types of autoimmune diseases.
 
 ## Ontologies & Terminologies
 
