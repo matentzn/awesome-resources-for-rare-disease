@@ -122,6 +122,7 @@ Major programs and consortia advancing rare disease research through data sharin
 - [SimPaThIC](https://simpathic.eu/) - EU Horizon-funded consortium of 22 partners repurposing existing drugs for rare neurological, neurometabolic, and neuromuscular disorders using patient-derived cell models.
 - [RDAS](https://rdas.ncats.nih.gov/) - NCATS Rare Disease Alert System integrating PubMed articles, clinical trials, and NIH grant data into a searchable knowledge graph. Users can browse and subscribe to alerts for rare diseases of interest.
 - [RARe-SOURCE](https://raresource.nih.gov/) - NCATS bioinformatics platform providing annotated data on rare diseases, associated genes, variants, and proteins, with AI-enhanced literature search and protein structure visualization to support drug discovery.
+- [CureTopia](https://www.curetopia.xyz/science) - A BioDAO leveraging yeast-based drug screening to identify repurposing opportunities for rare genetic conditions, democratising drug discovery for underserved patient communities.
 
 ## Patient Registries
 
