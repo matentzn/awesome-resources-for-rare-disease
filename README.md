@@ -86,6 +86,7 @@ Resources supporting rare disease diagnosis and patient matching.
 - [Phen2Gene](https://phen2gene.wglab.org/) - Phenotype-to-gene prioritization using HPO terms to rank candidate genes before sequencing or for variant interpretation.
 - [AMELIE](https://amelie.stanford.edu/) - Automatic literature-based variant interpretation that extracts gene-phenotype relationships from publications.
 - [Face2Gene](https://www.face2gene.com/) - AI-powered facial analysis for recognizing dysmorphic features associated with genetic syndromes. Aids diagnosis of syndromic rare diseases.
+- [Genomics England Rare Disease Genome Analysis Guide](https://pipeline-rd-help.genomicsengland.co.uk/Regulus%20Increment%201.2/) - Documentation of the Genomics England bioinformatics pipeline for annotating and tiering variants likely to be disease-causing, supporting NHS clinical diagnosis of rare genetic disorders.
 - [Undiagnosed Diseases Network](https://undiagnosed.hms.harvard.edu/) - NIH-funded network of clinical sites bringing together experts to diagnose patients who have eluded diagnosis despite extensive workup.
 - [Undiagnosed Diseases Program (UDP)](https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program) - The original NHGRI program at NIH Clinical Center that pioneered systematic approaches to solving undiagnosed rare diseases.
 
