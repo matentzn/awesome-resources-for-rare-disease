@@ -56,6 +56,7 @@ Standards specifically designed for or widely adopted by the rare disease commun
 - [Phenopackets](http://phenopackets.org/) - GA4GH standard for sharing patient phenotype and disease information. Adopted by rare disease diagnostic pipelines and the [Matchmaker Exchange](https://www.matchmakerexchange.org/). [Schema](https://github.com/phenopackets/phenopacket-schema).
 - [GA4GH Beacon](https://beacon-project.io/) - Protocol for querying genomic variant presence across federated datasets. Enables privacy-preserving rare variant discovery across institutions.
 - [RD-CDM](https://rd-cdm.readthedocs.io/) - Rare Disease Common Data Model extending ERDRI-CDS for international registry harmonization, compatible with Phenopackets and FHIR.
+- [Clinical And Registry Entries Semantic Model (CARE-SM)](https://care-sm.readthedocs.io/en/latest/) - Semantic data model for representing a set of common data elements for rare diseases registration. [GitHub](https://github.com/CARE-SM/CARE-Semantic-Model).
 
 ## Variant & Genomic Data
 
