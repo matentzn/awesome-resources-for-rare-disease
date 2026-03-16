@@ -121,7 +121,9 @@ Major programs and consortia advancing rare disease research through data sharin
 - [SimPaThIC](https://simpathic.eu/) - EU Horizon-funded consortium of 22 partners repurposing existing drugs for rare neurological, neurometabolic, and neuromuscular disorders using patient-derived cell models.
 - [RDAS](https://rdas.ncats.nih.gov/) - NCATS Rare Disease Alert System integrating PubMed articles, clinical trials, and NIH grant data into a searchable knowledge graph. Users can browse and subscribe to alerts for rare diseases of interest.
 - [RARe-SOURCE](https://raresource.nih.gov/) - NCATS bioinformatics platform providing annotated data on rare diseases, associated genes, variants, and proteins, with AI-enhanced literature search and protein structure visualization to support drug discovery.
-- [NF Data Portal](https://nf.synapse.org/) - Repository focused on neurofibromatosis (NF) diseases hosted by Sage Bionetworks with community support through the NF Open Science Initiative.
+- [NF Data Portal](https://nf.synapse.org/) - Data repository focused on neurofibromatosis (NF) diseases hosted by Sage Bionetworks with community support through the NF Open Science Initiative.
+- [NF Research Tools Central](https://tools.nf.synapse.org/) - Repository of research tools for neurofibromatosis (NF) diseases hosted by Sage Bionetworks and developed in collaboration with the Gilbert Family Foundation.
+- [ALS Knowledge Portal](https://ampals.synapse.org/) - Data repository focused on Amyotrophic Lateral Sclerosis (ALS) hosted by Sage Bionetworks with community support through the AMP ALS initative.
 
 ## Patient Registries
 
