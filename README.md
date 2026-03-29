@@ -147,6 +147,7 @@ Organizations representing patients, driving research priorities, and providing 
 - [SWAN UK](https://geneticalliance.org.uk/support-and-information/swan-uk-syndromes-without-a-name/) - Support network for families of children with Syndromes Without A Name (undiagnosed genetic conditions).
 - [CORD](https://www.raredisorders.ca/) - Canadian Organization for Rare Disorders providing patient support and advocating for rare disease policy in Canada.
 - [Rare Diseases South Africa](https://www.rarediseases.co.za/) - South African rare disease information and support hub.
+- [Rare Disease UK](http://www.raredisease.org.uk/) - National campaign by Genetic Alliance UK representing and uniting the rare disease community across the United Kingdom.
 
 ## Contributing
 
