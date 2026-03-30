@@ -66,6 +66,7 @@ Resources providing variant-level data essential for rare disease genetic diagno
 - [ClinGen](https://clinicalgenome.org/) - NIH-funded resource providing expert-curated gene-disease validity, variant pathogenicity, and dosage sensitivity assessments. The authority for clinical actionability of genetic findings.
 - [LOVD](https://www.lovd.nl/) - Locus-specific variant databases maintained by gene experts. Many rare disease genes have dedicated LOVD instances with curated variant interpretations.
 - [HGMD](http://www.hgmd.cf.ac.uk/) - Human Gene Mutation Database cataloging published disease-causing mutations. Commercial with limited public access; widely used in clinical genetics labs.
+- [Helix GenoSphere](https://www.helix.com/what-we-do/helix-genosphere) - Centralised research data ecosystem built on deep genetic and longitudinal clinical cohorts, enabling population-scale genomic research for drug development and precision medicine.
 
 ## APIs & Data Downloads
 
