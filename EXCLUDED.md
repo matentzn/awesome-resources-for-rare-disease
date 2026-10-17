@@ -18,9 +18,12 @@ These are valuable tools but not rare disease-specific:
 | ROBOT | General ontology tooling |
 | Ontobio | General ontology library |
 | OAK (Ontology Access Kit) | General-purpose ontology library; can work with HPO/Mondo but is not RD-specific software |
+| KGExplorer | General R package for exploring biomedical knowledge graphs and ontologies; can work with Monarch/HPO but is not RD-specific (proposed in #10) |
 | pronto | General OBO parser |
 | fastobo | General OBO parser |
 | InterMine | General data warehouse framework |
+| PhenoTagger | General HPO concept recognition in biomedical text; not RD-specific |
+| EUPID | General pseudonymisation and record-linkage service; used in RD and paediatric oncology but not RD-specific |
 | GA4GH | The umbrella genomics standards organization; not RD-specific (the GA4GH Rare Disease Community is included separately) |
 
 ## General European Health Data & Research Infrastructures
@@ -52,6 +55,12 @@ Useful for genomics broadly, but not rare disease-focused:
 | HGNC | Gene nomenclature (useful but not RD-specific) |
 | UniProt | Protein database (has disease annotations but primarily protein-focused) |
 | CIViC | Cancer-focused variant interpretation; rare cancer syndromes are insufficiently specific to RD |
+| Cellosaurus | General cell line knowledge base; only a minority of lines are RD-derived |
+| hPSCreg | General stem cell line registry |
+| IMPC | General mouse functional genomics, not RD-specific |
+| Phenolyzer | Phenotype-based gene prioritisation for common and rare disease; inactive, and Phen2Gene from the same lab is listed |
+| Helix GenoSphere | Commercial, licensed population genomics platform without an RD focus or open data (proposed in #6) |
+| Fabric GEM / Congenica | Commercial general clinical genome interpretation platforms; not RD-specific |
 
 ## General Ontologies & Classification Systems
 
@@ -88,6 +97,8 @@ Standards that are useful for rare disease work but are general-purpose:
 | FHIR Genomics | General HL7 FHIR resources for genomic data in clinical settings; not RD-specific |
 | VRS | GA4GH Variation Representation Specification for computable variant identifiers; general genomics standard |
 | HGVS Nomenclature | Standard for describing sequence variants; applies to all genomics, not RD-specific |
+| FAIR Genomes | General NGS metadata schema; RD use only through Solve-RD |
+| DUO / ICO | General data-use and informed-consent ontologies (the RD-specific IRDiRC/GA4GH model consent clauses are listed) |
 
 ## APIs & Data Services
 
@@ -100,6 +111,17 @@ General bioinformatics APIs:
 | PubTator Central | General literature annotation |
 | NCBI E-utilities | General NCBI access |
 | OLS4 | General ontology lookup service for all biomedical ontologies; not RD-specific |
+
+## Other Exclusions
+
+RD-relevant resources excluded for reasons other than scope:
+
+| Resource | Reason for Exclusion |
+|----------|---------------------|
+| CureTopia | Token-funded BioDAO without public data or tools (proposed in #5) |
+| CURE ID | FDA/NCATS drug repurposing case-report platform; not RD-specific |
+| Healx | Proprietary drug repurposing platform; no public data or API |
+| FDA Rare Disease Repurposing Database (RDRD) | Frozen around 2010, no live successor |
 
 ## Notes
 
