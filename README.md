@@ -103,6 +103,10 @@ Programmatic access points for rare disease data integration.
 - [Monarch API](https://api-v3.monarchinitiative.org/v3/docs) - REST API for querying integrated rare disease data: disease-gene associations, phenotype profiles, and cross-species mappings.
 - [MedGen](https://www.ncbi.nlm.nih.gov/medgen/) - NCBI's portal aggregating disease concepts from OMIM, Orphanet, HPO, Mondo, and ClinVar into unified identifiers. [FTP downloads](https://ftp.ncbi.nlm.nih.gov/pub/medgen/).
 - [ERDERA Virtual Platform](https://vp.erdera.org/) - Federated network of FAIR rare disease resources (registries, biobanks, genomic-phenomic repositories, catalogues, knowledge bases) with a discovery portal that queries all participating resources in real time while data stays with its holder. Originally built under EJP RD; part of the [ERDERA Data Hub](https://erdera.org/data-hub/).
+- [Phenopacket Store](https://monarch-initiative.github.io/phenopacket-store/) - Curated collection of GA4GH Phenopackets for published individuals with Mendelian diseases, organised by gene, for benchmarking diagnostic software and genotype-phenotype research. Maintained by the Monarch Initiative. [Releases](https://github.com/monarch-initiative/phenopacket-store/releases).
+- [RareBench](https://github.com/chenxz1111/RareBench) - Benchmark and patient-case dataset for evaluating large language models on rare disease differential diagnosis, built from five sources (RAMEDIS, MME, HMS, LIRICAL, PUMCH). Apache-2.0, data on [Hugging Face](https://huggingface.co/datasets/chenxz/RareBench).
+- [PRO-ACT](https://ncri1.partners.org/ProACT/) - Pooled Resource Open-Access ALS Clinical Trials database from Massachusetts General Hospital, with anonymised records from Phase II/III ALS trials (demographics, labs, history, outcomes). Free download after registration.
+- [Taiwan Rare Disease Case Statistics](https://data.gov.tw/dataset/128772) - Open dataset from Taiwan's Health Promotion Administration with counts of confirmed cases per government-designated rare disease. CSV download under the Taiwan Government Open Data License.
 
 ## Clinical & Diagnostic Resources
 
