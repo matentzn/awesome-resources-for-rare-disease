@@ -1,0 +1,2 @@
+# Site is up but serves an incomplete TLS certificate chain, which lychee rejects
+^https://amelie\.stanford\.edu

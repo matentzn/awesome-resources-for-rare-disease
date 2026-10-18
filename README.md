@@ -31,7 +31,7 @@ Core knowledge bases providing structured data on rare diseases, their genetic c
 - [OMIM](https://omim.org/) - The authoritative compendium of human genes and Mendelian phenotypes, maintained since 1966. Contains detailed clinical synopses and molecular genetics for inherited disorders. [Downloads](https://omim.org/downloads) (requires registration).
 - [Monarch Initiative](https://monarchinitiative.org/) - Integrates rare disease data across species, linking human diseases to model organism phenotypes to support variant interpretation and therapeutic target discovery. [Data downloads](https://monarchinitiative.org/kg/downloads).
 - [Orphadata](https://www.orphadata.com/) - The downloadable data arm of Orphanet, providing gene-disease associations, epidemiology, phenotype annotations, and disease classifications in machine-readable formats (XML, JSON).
-- [HPO Annotations (HPOA)](https://hpo.jax.org/data/annotations) - Curated disease-to-phenotype associations linking rare diseases to HPO terms. Powers phenotype-driven diagnostic tools like Exomiser and LIRICAL. Freely downloadable.
+- [HPO Annotations (HPOA)](https://obophenotype.github.io/human-phenotype-ontology/annotations/introduction/) - Curated disease-to-phenotype associations linking rare diseases to HPO terms. Powers phenotype-driven diagnostic tools like Exomiser and LIRICAL. Freely downloadable.
 - [DisGeNET](https://www.disgenet.org/) - Aggregates gene-disease associations from curated sources (OMIM, ClinVar, UniProt) and text mining. Useful for exploring genetic underpinnings of rare diseases. [Downloads available](https://www.disgenet.org/downloads).
 - [GARD](https://rarediseases.info.nih.gov/) - NIH Genetic and Rare Diseases Information Center providing patient-accessible disease summaries, inheritance patterns, and links to clinical resources for over 7,000 rare diseases.
 - [GeneReviews](https://www.ncbi.nlm.nih.gov/books/NBK1116/) - Expert-authored, peer-reviewed clinical descriptions of genetic conditions including diagnosis, management, and genetic counseling. The clinical reference standard for inherited disorders.
@@ -118,6 +118,7 @@ Resources supporting rare disease diagnosis and patient matching.
 - [Phen2Gene](https://phen2gene.wglab.org/) - Phenotype-to-gene prioritization using HPO terms to rank candidate genes before sequencing or for variant interpretation.
 - [AMELIE](https://amelie.stanford.edu/) - Automatic literature-based variant interpretation that extracts gene-phenotype relationships from publications.
 - [Face2Gene](https://www.face2gene.com/) - AI-powered facial analysis for recognizing dysmorphic features associated with genetic syndromes. Aids diagnosis of syndromic rare diseases.
+- [Genomics England Rare Disease Genome Analysis Guide](https://pipeline-rd-help.genomicsengland.co.uk/) - Documentation of the Genomics England bioinformatics pipeline for annotating and tiering variants likely to be disease-causing, supporting NHS clinical diagnosis of rare genetic disorders.
 - [Undiagnosed Diseases Network](https://undiagnosed.hms.harvard.edu/) - NIH-funded network of clinical sites bringing together experts to diagnose patients who have eluded diagnosis despite extensive workup.
 - [ERICA PROMs Repository](https://erica-rd.eu/work-packages/patient-centred-research/proms-repository/) - Central repository of patient-reported outcome measures (PROMs) and other clinical outcome assessments relevant to rare diseases, built by Orphanet, Mapi Research Trust, and ERN EuroBloodNet with input from the ERNs. Links through to PROQOLID for detailed instrument information; being scaled up under ERDERA.
 - [Undiagnosed Diseases Program (UDP)](https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program) - The original NHGRI program at NIH Clinical Center that pioneered systematic approaches to solving undiagnosed rare diseases.
@@ -197,11 +198,10 @@ Major programs and consortia advancing rare disease research through data sharin
 
 Registries collecting patient-level data essential for understanding rare disease natural history and enabling clinical trials.
 
-- [NIH GRDR Program](https://grdr.hms.harvard.edu/) - Global Rare Diseases Patient Registry Data Repository providing standardized data elements for rare disease registries.
 - [TREAT-NMD](https://www.treat-nmd.org/) - Global neuromuscular disease registry network that has enabled clinical trials for DMD, SMA, and other NMDs by providing trial-ready patient populations.
 - [RD-Connect](https://rd-connect.eu/) - European platform linking over 100 rare disease registries and biobanks with genomic data for integrated research.
-- [CoRDS](https://sanfordresearch.org/cords/) - Coordination of Rare Diseases at Sanford providing registry infrastructure for rare disease patient organizations.
-- [IAMRARE Registry Program](https://ncats.nih.gov/iamrare) - NCATS program providing registry infrastructure and support for rare disease advocacy organizations.
+- [CoRDS](https://research.sanfordhealth.org/rare-disease-registry) - Coordination of Rare Diseases at Sanford providing registry infrastructure for rare disease patient organizations.
+- [IAMRARE Registry Program](https://iamrare.org/) - NORD program providing registry infrastructure and support for rare disease advocacy organizations.
 - [RaDaR](https://registries.ncats.nih.gov/) - NCATS Rare Diseases Registry Program providing guidance, best practices, and resources for developing rare disease registries.
 - [BNDMR](https://www.bndmr.fr/) - French National Rare Disease Data Bank, holding the national rare disease minimum data set collected by expert centres through the BaMaRa application (AP-HP). Researchers apply for pseudonymised data through a formal procedure. [Minimum data set (English PDF)](https://www.bndmr.fr/wp-content/uploads/2024/01/French-National-Minimum-Data-Set-Rare-Diseases_v1.12-29012024.pdf).
 - [NARSE](https://www.narse.de/) - Germany's National Registry for Rare Diseases, operated by the Berlin Institute of Health at Charité. Dataset documentation, protocol and usage rules on the [downloads page](https://www.narse.de/downloads).

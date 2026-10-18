@@ -1,0 +1,38 @@
+name: Link check
+
+on:
+  pull_request:
+    paths:
+      - "**.md"
+      - ".github/workflows/link-check.yml"
+  push:
+    branches: [main]
+    paths:
+      - "**.md"
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # 403 and 429 are accepted because many resource sites (NHS, Wiley DOIs,
+      # Cloudflare-fronted portals) block CI user agents while being up.
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --verbose
+            --accept 200..=299,403,429
+            --max-retries 3
+            --timeout 30
+            --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+            README.md EXCLUDED.md CONTRIBUTING.md
+          fail: true
