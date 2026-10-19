@@ -183,6 +183,8 @@ Major programs and consortia advancing rare disease research through data sharin
 - [JARDIN](https://jardin-ern.eu/) - EU Joint Action (2024-2027) integrating the European Reference Networks into national health systems. Its data management work package addresses ERN registry interoperability and is defining a rare disease dataset for EHRs, aligned with the European EHR exchange format (EEHRxF) and ORPHAcodes.
 - [RDAS](https://rdas.ncats.nih.gov/) - NCATS Rare Disease Alert System integrating PubMed articles, clinical trials, and NIH grant data into a searchable knowledge graph. Users can browse and subscribe to alerts for rare diseases of interest.
 - [RARe-SOURCE](https://raresource.nih.gov/) - NCATS bioinformatics platform providing annotated data on rare diseases, associated genes, variants, and proteins, with AI-enhanced literature search and protein structure visualization to support drug discovery.
+- [NF Data Portal](https://nf.synapse.org/) - Data repository focused on neurofibromatosis (NF) diseases hosted by Sage Bionetworks with community support through the NF Open Science Initiative; includes [NF Research Tools Central](https://nf.synapse.org/Research%20Tools%20Central/Browse%20Tools/), a repository of research tools for neurofibromatosis (NF) diseases hosted by Sage Bionetworks and developed in collaboration with the Gilbert Family Foundation.
+- [ALS Knowledge Portal](https://ampals.synapse.org/) - Data repository focused on Amyotrophic Lateral Sclerosis (ALS) hosted by Sage Bionetworks with community support through the AMP ALS initiative.
 - [C-Path](https://c-path.org/) - Critical Path Institute, a nonprofit that brings together regulators, industry, and academia to accelerate drug development for diseases with unmet needs, including dedicated rare disease programmes such as Duchenne muscular dystrophy and polycystic kidney disease.
 - [RDCA-DAP](https://portal.rdca.c-path.org/) - Rare Disease Cures Accelerator Data and Analytics Platform, run by C-Path with NORD and FDA funding, pooling patient-level natural history, registry and trial data for many rare diseases in CDISC format. Access requires approval by a Data Use Committee and a Data Use Agreement.
 - [UDNI](https://www.udninternational.org/) - Undiagnosed Diseases Network International, coordinated from the Istituto Superiore di Sanità, connecting national undiagnosed disease programmes that share HPO-coded phenotype and genetic data under a common agreement.
@@ -226,6 +228,7 @@ Registries collecting patient-level data essential for understanding rare diseas
 - [INPDR](https://inpdr.org/) - International Niemann-Pick Disease Registry, collecting longitudinal patient and clinical data. Data access requests are reviewed by a Scientific Advisory Committee; academic and commercial access carry fees.
 - [ECFS Patient Registry](https://pr.ecfs.eu/) - European Cystic Fibrosis Society registry with longitudinal data from people with cystic fibrosis across Europe. Annual reports are public; researchers apply for data access.
 - [CF Foundation Patient Registry](https://www.cff.org/medical-professionals/patient-registry) - US Cystic Fibrosis Foundation registry of health and treatment data from accredited CF care centres. Annual reports are public; data requests need a proposal and IRB approval.
+- [NF Registry](https://www.ctf.org/nf-registry/) - Patient-driven registry for neurofibromatosis (NF) to advance research and improve care funded by the Children's Tumor Foundation.
 
 ## Patient Advocacy & Support Organizations
 
@@ -241,6 +244,9 @@ Organizations representing patients, driving research priorities, and providing 
 - [SWAN UK](https://geneticalliance.org.uk/support-and-information/swan-uk-syndromes-without-a-name/) - Support network for families of children with Syndromes Without A Name (undiagnosed genetic conditions).
 - [CORD](https://www.raredisorders.ca/) - Canadian Organization for Rare Disorders providing patient support and advocating for rare disease policy in Canada.
 - [Rare Diseases South Africa](https://www.rarediseases.co.za/) - South African rare disease information and support hub.
+- [CTF](https://www.ctf.org/) - The Children's Tumor Foundation connects patients, doctors, scientists, and pharma to drive treatments for neurofibromatosis or schwannomatosis.
+- [GFF](https://gilbertfamilyfoundation.org/curing-neurofibromatosis/) - The Gilbert Family Foundation supports bold research initiatives that are accelerating a cure to neurofibromatosis (NF).
+- [NTAP](https://www.n-tap.org/) - The Neurofibromatosis Therapeutic Acceleration Program leads and funds breakthrough research to accelerate treatment options for NF1-related plexiform and cutaneous neurofibromas.
 - [Rare Disease UK](http://www.raredisease.org.uk/) - National campaign by Genetic Alliance UK representing and uniting the rare disease community across the United Kingdom.
 
 ## Contributing
