@@ -22,8 +22,8 @@ These are valuable tools but not rare disease-specific:
 | pronto | General OBO parser |
 | fastobo | General OBO parser |
 | InterMine | General data warehouse framework |
-| PhenoTagger | General HPO concept recognition in biomedical text; not RD-specific (ClinPhen is listed because it was built and validated with the UDN for genetic diagnosis) |
-| EUPID | General pseudonymisation and record-linkage service; used in RD and paediatric oncology but not RD-specific (its RD-specific successor in the EU RD Platform is ERDRI.spider) |
+| PhenoTagger | General HPO concept recognition in biomedical text; not RD-specific |
+| EUPID | General pseudonymisation and record-linkage service; used in RD and paediatric oncology but not RD-specific |
 | CURE ID | FDA/NCATS drug repurposing case-report platform; not RD-specific |
 | GA4GH | The umbrella genomics standards organization; not RD-specific (the GA4GH Rare Disease Community is included separately) |
 
@@ -124,6 +124,20 @@ RD-relevant resources excluded for reasons other than scope:
 | PhenoTips | Commercial with no free tier; the open-source edition is archived |
 | Healx | Proprietary drug repurposing platform; no public data or API |
 | FDA Rare Disease Repurposing Database (RDRD) | Frozen around 2010, no live successor |
+
+## Not Recently Maintained
+
+RD-specific resources that are still online but show no update in roughly the last two years (see the [quality standards](CONTRIBUTING.md#quality-standards)). Any of them can come back once it is updated again:
+
+| Resource | Reason for Exclusion |
+|----------|---------------------|
+| ClinPhen | Last release (1.28 on PyPI) in Aug 2019 |
+| PhenoGenius | Last code change May 2024; the web app still runs on 2024 HPO data |
+| RSDB (Rare Skin Disease Database) | Still built on the Dec 2020 HPO release; no data release since 2022 |
+| OLIDA | Last data release (v4) in Mar 2024, covering literature up to Jan 2024 |
+| FindZebra | No index or software update found since 2023 |
+| PRO-ACT | Last dated data release in Aug 2022 |
+| ModelMatcher | No visible update since its 2021 launch (site © 2021, only a 2021 preprint); unreachable since Oct 2026. Clinician-to-model-organism matching is covered by RDMM and the Matchmaker Exchange |
 
 ## Retired Resources
 
