@@ -228,6 +228,7 @@ Registries collecting patient-level data essential for understanding rare diseas
 - [ECFS Patient Registry](https://pr.ecfs.eu/) - European Cystic Fibrosis Society registry with longitudinal data from people with cystic fibrosis across Europe. Annual reports are public; researchers apply for data access.
 - [CF Foundation Patient Registry](https://www.cff.org/medical-professionals/patient-registry) - US Cystic Fibrosis Foundation registry of health and treatment data from accredited CF care centres. Annual reports are public; data requests need a proposal and IRB approval.
 - [NF Registry](https://www.ctf.org/nf-registry/) - Patient-driven registry for neurofibromatosis (NF) to advance research and improve care funded by the Children's Tumor Foundation.
+- [Rare Disease Patient Registry Coordinators Facebook group](https://facebook.com/groups/rarediseasepatientregistrycoordinators) - Private peer group of roughly 400 people who run or plan rare disease patient registries, where coordinators exchange practical questions about platforms, consent, data elements, and governance.
 
 ## Patient Advocacy & Support Organizations
 
