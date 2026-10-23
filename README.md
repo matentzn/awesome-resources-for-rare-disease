@@ -193,6 +193,7 @@ Major programs and consortia advancing rare disease research through data sharin
 - [N=1 Collaborative](https://n1collaborative.org/) - Organisation for individualised genetic therapies (e.g. ASOs for ultra-rare variants), offering the VARIANT eligibility tool, a Gene Registry of individualised therapy programmes, and protocol and regulatory resources.
 - [Telethon Network of Genetic Biobanks](https://biobanknetwork.telethon.it/) - Fondazione Telethon network of Italian biobanks holding samples for rare genetic diseases, searchable in an online catalogue; samples released for non-commercial research after approval and an MTA.
 - [BioNER](https://iier.isciii.es/bioner-inicio) - Spain's National Rare Diseases Biobank, run by ISCIII-IIER, holding samples from people with rare diseases, relatives and controls, linked to the Spanish rare disease registry. Samples available after scientific and ethical review.
+- [Penn Orphan Disease Center](https://orphandiseasecenter.org/) - Center at the University of Pennsylvania Perelman School of Medicine that funds and coordinates rare disease research through programs such as the Million Dollar Bike Ride grants and JumpStart, and works directly with patient organizations.
 
 ## Patient Registries
 
