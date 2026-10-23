@@ -193,6 +193,7 @@ Major programs and consortia advancing rare disease research through data sharin
 - [N=1 Collaborative](https://n1collaborative.org/) - Organisation for individualised genetic therapies (e.g. ASOs for ultra-rare variants), offering the VARIANT eligibility tool, a Gene Registry of individualised therapy programmes, and protocol and regulatory resources.
 - [Telethon Network of Genetic Biobanks](https://biobanknetwork.telethon.it/) - Fondazione Telethon network of Italian biobanks holding samples for rare genetic diseases, searchable in an online catalogue; samples released for non-commercial research after approval and an MTA.
 - [BioNER](https://iier.isciii.es/bioner-inicio) - Spain's National Rare Diseases Biobank, run by ISCIII-IIER, holding samples from people with rare diseases, relatives and controls, linked to the Spanish rare disease registry. Samples available after scientific and ethical review.
+- [GeoALS](https://www.geoals.org/) - Nonprofit that applies geographic information systems to ALS, mapping cases, clinics, and environmental exposures to support research, resource planning, and advocacy for the ALS community.
 
 ## Patient Registries
 
