@@ -1,2 +1,6 @@
-# Site is up but serves an incomplete TLS certificate chain, which lychee rejects
+# Sites are up but serve an incomplete TLS certificate chain, which lychee rejects.
+# These links are never checked while listed here: check them by hand when
+# reviewing the list, and drop a line once its site serves a full chain.
 ^https://amelie\.stanford\.edu
+^https://praged\.cdfd\.org\.in
+^https://www\.bndmr\.fr

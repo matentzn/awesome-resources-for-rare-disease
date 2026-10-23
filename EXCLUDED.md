@@ -18,9 +18,13 @@ These are valuable tools but not rare disease-specific:
 | ROBOT | General ontology tooling |
 | Ontobio | General ontology library |
 | OAK (Ontology Access Kit) | General-purpose ontology library; can work with HPO/Mondo but is not RD-specific software |
+| KGExplorer | General R package for exploring biomedical knowledge graphs and ontologies; can work with Monarch/HPO but is not RD-specific (proposed in #10) |
 | pronto | General OBO parser |
 | fastobo | General OBO parser |
 | InterMine | General data warehouse framework |
+| PhenoTagger | General HPO concept recognition in biomedical text; not RD-specific |
+| EUPID | General pseudonymisation and record-linkage service; used in RD and paediatric oncology but not RD-specific |
+| CURE ID | FDA/NCATS drug repurposing case-report platform; not RD-specific |
 | GA4GH | The umbrella genomics standards organization; not RD-specific (the GA4GH Rare Disease Community is included separately) |
 
 ## General European Health Data & Research Infrastructures
@@ -52,6 +56,13 @@ Useful for genomics broadly, but not rare disease-focused:
 | HGNC | Gene nomenclature (useful but not RD-specific) |
 | UniProt | Protein database (has disease annotations but primarily protein-focused) |
 | CIViC | Cancer-focused variant interpretation; rare cancer syndromes are insufficiently specific to RD |
+| Gabriella Miller Kids First DRC | Paediatric cancer and structural birth defect cohorts; same reasoning as CIViC, and the birth defect half is not RD-specific |
+| Cellosaurus | General cell line knowledge base; only a minority of lines are RD-derived |
+| hPSCreg | General stem cell line registry |
+| IMPC | General mouse functional genomics, not RD-specific |
+| Phenolyzer | Phenotype-based gene prioritisation for common and rare disease; inactive, and Phen2Gene from the same lab is listed |
+| Helix GenoSphere | Commercial, licensed population genomics platform without an RD focus or open data (proposed in #6) |
+| Fabric GEM / Congenica | Commercial general clinical genome interpretation platforms; not RD-specific |
 
 ## General Ontologies & Classification Systems
 
@@ -88,6 +99,8 @@ Standards that are useful for rare disease work but are general-purpose:
 | FHIR Genomics | General HL7 FHIR resources for genomic data in clinical settings; not RD-specific |
 | VRS | GA4GH Variation Representation Specification for computable variant identifiers; general genomics standard |
 | HGVS Nomenclature | Standard for describing sequence variants; applies to all genomics, not RD-specific |
+| FAIR Genomes | General Dutch NGS metadata schema |
+| DUO / ICO | General data-use and informed-consent ontologies (the RD-specific IRDiRC/GA4GH model consent clauses are listed) |
 
 ## APIs & Data Services
 
@@ -100,6 +113,31 @@ General bioinformatics APIs:
 | PubTator Central | General literature annotation |
 | NCBI E-utilities | General NCBI access |
 | OLS4 | General ontology lookup service for all biomedical ontologies; not RD-specific |
+
+## Other Exclusions
+
+RD-relevant resources excluded for reasons other than scope:
+
+| Resource | Reason for Exclusion |
+|----------|---------------------|
+| CureTopia | Token-funded BioDAO without public data or tools (proposed in #5) |
+| PhenoTips | Commercial with no free tier; the open-source edition is archived |
+| Healx | Proprietary drug repurposing platform; no public data or API |
+| FDA Rare Disease Repurposing Database (RDRD) | Frozen around 2010, no live successor |
+
+## Not Recently Maintained
+
+RD-specific resources that are still online but show no update in roughly the last two years (see the [quality standards](CONTRIBUTING.md#quality-standards)). Any of them can come back once it is updated again:
+
+| Resource | Reason for Exclusion |
+|----------|---------------------|
+| ClinPhen | Last release (1.28 on PyPI) in Aug 2019 |
+| PhenoGenius | Last code change May 2024; the web app still runs on 2024 HPO data |
+| RSDB (Rare Skin Disease Database) | Still built on the Dec 2020 HPO release; no data release since 2022 |
+| OLIDA | Last data release (v4) in Mar 2024, covering literature up to Jan 2024 |
+| FindZebra | No index or software update found since 2023 |
+| PRO-ACT | Last dated data release in Aug 2022 |
+| ModelMatcher | No visible update since its 2021 launch (site © 2021, only a 2021 preprint); unreachable since Oct 2026. Clinician-to-model-organism matching is covered by RDMM and the Matchmaker Exchange |
 
 ## Retired Resources
 
