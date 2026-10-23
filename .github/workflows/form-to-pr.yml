@@ -1,0 +1,120 @@
+name: Form submission to pull request
+
+# Runs only for issues opened by the form's bot account (repository variable
+# FORM_BOT_LOGIN). If that variable is not set, nothing runs.
+#
+# Triggers:
+#  - the bot opens an issue titled "[Form] ..."
+#  - a maintainer adds the "bot:retry" label to such an issue after fixing the
+#    JSON block (adding labels needs Triage access, so only maintainers can).
+#
+# The issue body is untrusted. It reaches the Python script only through an
+# environment variable, never through ${{ }} inside a shell command.
+# Pull requests are never merged automatically.
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions: {}
+
+concurrency:
+  group: form-submission-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: >-
+      vars.FORM_BOT_LOGIN != '' &&
+      github.event.issue.user.login == vars.FORM_BOT_LOGIN &&
+      github.event.issue.state == 'open' &&
+      github.event.issue.pull_request == null &&
+      startsWith(github.event.issue.title, '[Form]') &&
+      (github.event.action == 'opened' ||
+       (github.event.action == 'labeled' && github.event.label.name == 'bot:retry'))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # Uses the runner's built-in Python 3.12; no third-party packages.
+      - name: Apply the submission to README.md
+        id: apply
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: python3 -I .github/scripts/apply_form_submission.py
+
+      - name: Open (or update) the pull request
+        if: steps.apply.outputs.result == 'ok'
+        id: pr
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          add-paths: README.md
+          branch: form/issue-${{ github.event.issue.number }}
+          delete-branch: true
+          commit-message: ${{ steps.apply.outputs.title }}
+          title: ${{ steps.apply.outputs.title }}
+          labels: form-submission
+          body: |
+            ${{ steps.apply.outputs.summary }}
+
+            Closes #${{ github.event.issue.number }}
+
+      - name: Tell the submitter where the pull request is
+        if: steps.apply.outputs.result == 'ok' && steps.pr.outputs.pull-request-url != ''
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          PR_URL: ${{ steps.pr.outputs.pull-request-url }}
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.issue.number,
+              body: `Thank you. A pull request with this change is ready for maintainer review: ${process.env.PR_URL}\n\nThis issue will close automatically when the pull request is merged.`
+            });
+
+      - name: Flag for manual review
+        if: always() && steps.apply.outputs.result != 'ok'
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          # Already markdown-escaped by the Python script.
+          REASON: ${{ steps.apply.outputs.reason }}
+        with:
+          script: |
+            const reason = (process.env.REASON || 'The automation could not apply this change.').replace(/\s+/g, ' ');
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.issue.number,
+              body: [
+                'This submission needs a maintainer to look at it:',
+                '',
+                `> ${reason}`,
+                '',
+                'A maintainer can correct the JSON block in the issue (keeping the marker line above it) and add the `bot:retry` label to run the automation again, or make the change by hand and close this issue.'
+              ].join('\n')
+            });
+            await github.rest.issues.addLabels({
+              ...context.repo,
+              issue_number: context.issue.number,
+              labels: ['needs-manual-review']
+            });
+
+      - name: Clear the retry label so it can be used again
+        if: always() && github.event.action == 'labeled'
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            try {
+              await github.rest.issues.removeLabel({
+                ...context.repo,
+                issue_number: context.issue.number,
+                name: 'bot:retry'
+              });
+            } catch (e) { /* label already gone */ }
