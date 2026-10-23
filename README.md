@@ -247,6 +247,7 @@ Organizations representing patients, driving research priorities, and providing 
 - [GFF](https://gilbertfamilyfoundation.org/curing-neurofibromatosis/) - The Gilbert Family Foundation supports bold research initiatives that are accelerating a cure to neurofibromatosis (NF).
 - [NTAP](https://www.n-tap.org/) - The Neurofibromatosis Therapeutic Acceleration Program leads and funds breakthrough research to accelerate treatment options for NF1-related plexiform and cutaneous neurofibromas.
 - [Rare Disease UK](http://www.raredisease.org.uk/) - National campaign by Genetic Alliance UK representing and uniting the rare disease community across the United Kingdom.
+- [Librarey](https://www.librarey.com/) - A curated collection of rare disease and disability resources compiled by rare disease families for other families, covering topics such as diagnosis, care, equipment, and financial help.
 
 ## Contributing
 
