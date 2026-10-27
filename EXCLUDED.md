@@ -24,6 +24,7 @@ The list covers resources for people working with rare disease data (see [#36](h
 | NCATS | NIH funding and research centre; its rare disease resources (GARD, RaDaR, RDAS, RARe-SOURCE) are listed |
 | C-Path | Drug development consortium organiser; its RDCA-DAP platform is listed |
 | Penn Orphan Disease Center | Research funder and coordinator (#28) |
+| Citizen Health | Commercial patient-facing service that collects medical records for patient-organisation registries; not a resource researchers query or apply to (#22) |
 | Raregivers Global | Family support charity (#24) |
 | Rare New England | Regional family support and events (#26) |
 | Librarey | Directory of support resources for families; referenced in the README intro instead (#35) |

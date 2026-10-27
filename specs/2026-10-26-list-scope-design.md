@@ -53,7 +53,7 @@ Net change: 165 entries become 150. That is 16 removed, 4 duplicates dropped and
 
 - The web form's category dropdown has to list the new section names. Until it does, the form bot maps the old names of renamed sections to the new headings (`LEGACY_SECTIONS` in `.github/scripts/apply_form_submission.py`). Submissions to removed sections go to `needs-manual-review`.
 - Funders are out of scope, and the "disease-specific funders stay in Patient Advocacy until there are more than 10" policy is dropped. A data resource a funder runs can still be listed on its own.
-- Out-of-scope form submissions are recorded in EXCLUDED.md and closed: #24, #26, #28, #30, #33 and #35. #22 (Citizen Health) and #32 (GeoALS) need a decision on their own.
+- Out-of-scope form submissions are recorded in EXCLUDED.md and closed: #22, #24, #26, #28, #30, #33 and #35. #32 (GeoALS) needs a decision on its own.
 - Triage of the 2,938-row spreadsheet is limited to the roughly 370 data-like rows.
 
 ## Not decided here
