@@ -7,6 +7,7 @@ Thank you for your interest in contributing to Awesome Resources for Rare Diseas
 Please ensure your pull request adheres to the following guidelines:
 
 - **Search previous suggestions** before making a new one to avoid duplicates.
+- **List each resource once**, in the section that matches what it mainly is. Software (including phenotype-driven rankers such as Exomiser) goes under Analysis Tools & Software, even when it is used for diagnosis. If a resource also offers data or an API, link them from the same entry instead of adding a second one.
 - **Make an individual pull request** for each suggestion.
 - **Use the following format:** `- [Resource Name](URL) - Brief description.`
 - **Descriptions should be concise** and explain what the resource is, not just the name.
