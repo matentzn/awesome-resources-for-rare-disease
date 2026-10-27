@@ -213,6 +213,7 @@ Research programmes, networks and communities that produce rare disease data or 
 - [JARDIN](https://jardin-ern.eu/) - EU Joint Action (2024-2027) integrating the European Reference Networks into national health systems. Its data management work package addresses ERN registry interoperability and is defining a rare disease dataset for EHRs, aligned with the European EHR exchange format (EEHRxF) and ORPHAcodes.
 - [RARAS](https://raras.org.br/) - Brazilian Rare Diseases Network linking university hospitals and reference services that collect standardised rare disease patient data. Its [observatory](https://observatorio.raras.org.br/) publishes dashboards on epidemiology, diagnosis, treatment and costs (in Portuguese).
 - [N=1 Collaborative](https://n1collaborative.org/) - Organisation for individualised genetic therapies (e.g. ASOs for ultra-rare variants), offering the VARIANT eligibility tool, a Gene Registry of individualised therapy programmes, and protocol and regulatory resources.
+- [GeoALS](https://www.geoals.org/) - Nonprofit that applies geographic information systems to ALS, mapping cases, clinics, and environmental exposures to support research, resource planning, and advocacy for the ALS community.
 
 ## Directories & Catalogues
 
