@@ -29,6 +29,17 @@ HEADING_RE = re.compile(r"^## (?P<title>.+?)\s*$")
 RESERVED_SECTIONS = {"Contents", "Contributing", "License"}
 NEW_CATEGORY_OPTION = "Propose a new category"
 
+# Section names the Google Form may still offer after the README sections were
+# renamed or removed (#36). Renamed sections map to their new heading; removed
+# ones map to None and are sent to a maintainer.
+LEGACY_SECTIONS = {
+    "Clinical & Diagnostic Resources": "Diagnosis & Patient Matching",
+    "Research Platforms & Initiatives": "Research Programmes & Communities",
+    "Patient Registries": "Patient Registries & Biobanks",
+    "APIs & Data Downloads": None,
+    "Patient Advocacy & Support Organizations": None,
+}
+
 # Only the block directly after this marker, at the start of a line, is read.
 BLOCK_RE = re.compile(r"^<!-- form-submission:v1 -->\n```json\n(.*?)\n```[ \t]*$", re.M | re.S)
 
@@ -250,6 +261,11 @@ def main() -> None:
     if category.startswith(NEW_CATEGORY_OPTION):
         skip("The submitter proposed a new category. A maintainer needs to decide "
              "where this belongs (or add the heading) before it can be applied.")
+    if category in LEGACY_SECTIONS:
+        if LEGACY_SECTIONS[category] is None:
+            skip(f"Section {md(category)} no longer exists (see #36). A maintainer needs to check "
+                 "whether this resource is in scope and where it belongs.")
+        category = LEGACY_SECTIONS[category]
 
     check_name(name)
     check_url(url, "URL")

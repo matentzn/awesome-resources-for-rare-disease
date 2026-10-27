@@ -1,6 +1,35 @@
 # Excluded Resources
 
-Resources that were considered but excluded from the main list because they are not specific enough to rare diseases, despite being often tremendously useful. This document helps maintainers track decisions and avoid re-evaluating the same resources.
+Resources that were considered but excluded from the main list, mostly because they are not specific enough to rare diseases or fall outside the list's research and data scope, despite often being tremendously useful. This document helps maintainers track decisions and avoid re-evaluating the same resources.
+
+## Patient Advocacy, Support & Funding Organisations
+
+The list covers resources for people working with rare disease data (see [#36](https://github.com/matentzn/awesome-resources-for-rare-disease/issues/36)). Organisations whose main role is advocacy, family support or research funding are out of scope; any data, registry or tool they run is listed on its own. For family support see [Librarey](https://www.librarey.com/) and the [Resource Ecosystem](https://boycelab.github.io/rare-resources/).
+
+| Resource | Reason for Exclusion |
+|----------|---------------------|
+| NORD | Patient advocacy alliance; its IAMRARE Registry Program is listed |
+| EURORDIS | Patient advocacy alliance; its Rare Barometer survey is listed |
+| Global Genes | Patient advocacy and support; its RARE-X data platform is listed |
+| Rare Diseases International | Global advocacy alliance |
+| Genetic Alliance | Advocacy network |
+| EveryLife Foundation (now RARE Foundation) | Policy advocacy |
+| Genetic Alliance UK / Rare Disease UK | Advocacy and campaigning |
+| SWAN UK | Family support network |
+| CORD | Canadian patient advocacy |
+| Rare Diseases South Africa | Information and support hub |
+| Children's Tumor Foundation (CTF) | Funder and advocacy; its NF Registry is listed |
+| Gilbert Family Foundation (GFF) | Funder; NF Research Tools Central (with GFF) is listed under the NF Data Portal |
+| NTAP | Research funder |
+| NCATS | NIH funding and research centre; its rare disease resources (GARD, RaDaR, RDAS, RARe-SOURCE) are listed |
+| C-Path | Drug development consortium organiser; its RDCA-DAP platform is listed |
+| Penn Orphan Disease Center | Research funder and coordinator (#28) |
+| Citizen Health | Commercial patient-facing service that collects medical records for patient-organisation registries; not a resource researchers query or apply to (#22) |
+| Raregivers Global | Family support charity (#24) |
+| Rare New England | Regional family support and events (#26) |
+| Librarey | Directory of support resources for families; referenced in the README intro instead (#35) |
+| Once Upon a Gene | Podcast (#33) |
+| Rare Disease Patient Registry Coordinators (Facebook group) | Social media group (#30) |
 
 ## General-Purpose Tools & Infrastructure
 
